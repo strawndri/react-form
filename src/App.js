@@ -1,8 +1,12 @@
+import Main from "./components/Main";
+
 function App() {
   return (
-    <div className="App">
-      Hey
-    </div>
+    <Main>
+      {/* <Form>
+        <Field.text />
+      </Form> */}
+    </Main>
   );
 }
 
