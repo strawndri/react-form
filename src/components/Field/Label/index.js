@@ -6,6 +6,8 @@ const Label = styled.label`
     flex-direction: column;
     align-items: center;
 
+    margin-bottom: 40px;
+    
     font-size: 30px;
 
 `
