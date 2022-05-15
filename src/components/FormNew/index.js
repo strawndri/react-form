@@ -1,31 +1,14 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-
 import { yupResolver } from "@hookform/resolvers/yup";
-import * as yup from "yup";
+
+import schema from "./validation";
 
 import Form from "../Form";
 import Field from "../Field";
 import Button from "../Button";
 
 const FormNew = () => {
-
-  const schema = yup.object().shape({
-    // name: yup
-    //   .string()
-    //   .min(2, "Digite no mínimo dois caracteres."),
-      // .required("Campo Obrigatório"),
-
-    email: yup
-      .string()
-      .email("Por favor, digite um e-mail válido.")
-      .required("Campo Obrigatório"),
-
-    // phone: yup
-    //   .string()
-    //   .phone("Digite um número de telefone válido")
-    //   .required()
-  }).required();
 
   const { register, handleSubmit, formState:{ errors} } = useForm({
     resolver: yupResolver(schema)
