@@ -7,7 +7,7 @@ import Input from "./Input";
 const Text = ({label, type, name, register }) => (
   <Label>
     <Content>{label}</Content>
-    <Input type={type} name={name} {...register('test', { required: true })}/>
+    <Input name={name} type={type} {...register("email", { required: true })}/>
   </Label>
 );
 
