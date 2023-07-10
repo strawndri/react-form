@@ -1,32 +1,20 @@
-<h1 align="center">React form</h1>
+# ⚛️ | React form
 
-<p align="center">
-  <img src="https://i.imgur.com/zg56J8t.png" alt='Banner. Imagem com fundo cor-de-rosa com uma borda cinza escuro em seu entorno. Ao centro, há um retângulo cinza escuro com o texto: "React Form". Nos lados direito e esquerdo, há o ícona da biblioteca React, representado por um círculo preto com três elipses pretas em seu entorno.' />
-</p>
+![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-f5b5ca.svg)
+![Status](https://img.shields.io/badge/Status-Concluído-abf285.svg)
 
-<p align="center">
-    <img src='https://img.shields.io/badge/Status-Finalizado-abf285?style=for-the-badge&logo=appveyor' alt='Badge. Retângulo dividido em duas partes: no lado esquerdo, o retângulo possui a cor cinza, um círculo azul com vazados e o texto "STATUS"; no lado direito, o retângulo é verde e contém o texto "Finalizado".'>
-</p>
+## Índice
 
-### Sumário 
-
-:small_blue_diamond: [Sobre o projeto](#sobre-o-projeto)
-
-:small_blue_diamond: [Tecnologias](#tecnologias)
-
-:small_blue_diamond: [Files tree](#files-tree)
+- [Sobre o projeto](#sobre-o-projeto)
+- [Aprendizagens](#aprendizagens)
+- [Licença](#licença)
 
 ## Sobre o projeto
+
 Este projeto foi criado com o objetivo de estudar formulários em React JS. Mais do que apenas usar esta tecnologia, eu construí o aplicativo
 com componentes estilizados e ferramentas para validá-lo, como React-hook-form e Yup.
 
-## Tecnologias
-- ⚛️ [React JS](https://reactjs.org/docs/getting-started.html)
-- 💅 [Styled-Components](https://styled-components.com/docs)
-- 📋 [React Hook Form](https://react-hook-form.com/get-started)
-- ✔️ [Yup](https://github.com/jquense/yup)
-
-## Files tree
+**Abaixo está a organização dos arquivos do projeto:**
 ```
  ┣ 📂public
  ┃ ┣ 📜index.html
@@ -60,7 +48,17 @@ com componentes estilizados e ferramentas para validá-lo, como React-hook-form 
  ┃ ┗ 📜index.js
 ```
 
-## Feito com carinho por:
+## Tecnologias utilizadas
 
-| [<img src="https://avatars.githubusercontent.com/u/62841828?v=4" width=115><br><sub>Andrieli Luci Gonçalves</sub>](https://github.com/strawndri) |
-| :---: |
+- [React JS](https://reactjs.org/docs/getting-started.html): Biblioteca JavaScript para construção de interfaces de usuário;
+- [Styled-Components](https://styled-components.com/docs): Biblioteca para escrever estilos CSS de forma mais dinâmica e componentizada no React;
+- [React Hook Form](https://react-hook-form.com/get-started): Biblioteca para gerenciar formulários no React de forma simples e eficiente, utilizando hooks;
+- [Yup](https://github.com/jquense/yup): Biblioteca de validação de dados para JavaScript, utilizada para validar e realizar a verificação de esquemas de dados no React e em outros ambientes.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT). Consulte o arquivo `LICENSE` para obter mais informações sobre os termos de licenciamento.
+
+---
+
+✨ Feito com carinho por [Andrieli Gonçalves](https://github.com/strawndri).
